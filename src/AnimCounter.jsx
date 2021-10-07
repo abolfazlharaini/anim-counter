@@ -18,14 +18,14 @@ const AnimCounter = (props) => {
             <Button
                 className={props.classes?.minus}
                 onClick={onClickMinusBtn}>
-                {props.minusChildren ?? <MinusIcon />}
+                {props.minusIcon ?? <MinusIcon />}
             </Button>
             <LabelWrapper className={props.classes?.labelWrapper}>
                 {incrementQueue.slice(0, 3).map((item, iItem) =>
                     <Label
                         key={item.id}
                         children={item.value}
-                        className={props.classes.label}
+                        className={props.classes?.label}
                         duration={props.duration}
                         style={{ top: item.top }} />
                 )}
@@ -33,7 +33,7 @@ const AnimCounter = (props) => {
             <Button
                 className={props.classes?.plus}
                 onClick={onClickPlusBtn}>
-                {props.plusChildren ?? <PlusIcon />}
+                {props.plusIcon ?? <PlusIcon />}
             </Button>
         </Root>
     );

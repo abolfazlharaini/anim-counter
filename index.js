@@ -1,0 +1,1 @@
+﻿export { default as AnimCounter } from './src/AnimCounter';

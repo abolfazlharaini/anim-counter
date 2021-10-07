@@ -10,9 +10,7 @@ export const Label = styled.label`
     width: 100%;
 `;
 
-export const Button = styled.button`
-
-`;
+export const Button = styled.button``;
 
 export const LabelWrapper = styled.div`
     height: 20px;
