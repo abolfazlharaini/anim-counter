@@ -13,6 +13,10 @@ const AnimCounterLogic = (props) => {
     useEffect(() => initAnimQueue(), [incrementQueue]);
 
     const onAddToNextQueue = (isIncrease) => {
+
+        if (props.disabled)
+            return;
+
         const newValue = isIncrease ? currentValue + 1 : currentValue - 1;
 
         setCurrentValue(newValue);
@@ -29,6 +33,9 @@ const AnimCounterLogic = (props) => {
             });
             return [...newIncrementQueue];
         });
+
+        if (props.onChange)
+            props.onChange(newValue);
     }
 
     const initAnimQueue = () => {

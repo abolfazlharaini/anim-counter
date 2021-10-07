@@ -1,1 +1,3 @@
 # Anim Counter
+
+![](./demo.gif)
