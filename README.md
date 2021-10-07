@@ -4,8 +4,7 @@
 
 ## Usage guide
 
-npm i anim-counter
-import AnimCounter from 'anim-counter';
+import { AnimCounter } from 'anim-counter';
 
 ## Props
 
