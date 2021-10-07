@@ -1,6 +1,6 @@
 {
   "name": "anim-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animation counter",
   "keywords": ["counter", "reactjs", "nanoid", "animation", "animation counter"],
   "author":{

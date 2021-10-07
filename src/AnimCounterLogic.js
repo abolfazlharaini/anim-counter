@@ -5,7 +5,7 @@ import { nanoid } from 'nanoid';
 let timeout = 0;
 
 const AnimCounterLogic = (props) => {
-    const [currentValue, setCurrentValue] = useState(0);
+    const [currentValue, setCurrentValue] = useState(props.defaultValue ?? 0);
     const [incrementQueue, setIncrementQueue] = useState([
         { value: currentValue, top: '0', id: nanoid() }
     ]);

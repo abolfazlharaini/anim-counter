@@ -10,11 +10,12 @@ import { AnimCounter } from 'anim-counter';
 
 |                |Default value                          |Value type                         |
 |----------------|-------------------------------|-----------------------------|
-|disabled|`'false'`|boolean, undefined|
-|duration|`150`|number, undefined|
+|defaultValue|`0`|number|
+|disabled|`'false'`|boolean|
+|duration|`150`|number|
 |minusIcon|`svg icon`|any|
 |plusIcon|`svg icon`|any|
-|onChange|`undefined`|(newValue) => void, undefined|
+|onChange|`undefined`|(newValue) => void|
 
 ## Classnames
 
