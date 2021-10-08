@@ -1,6 +1,6 @@
 import './reboot.css';
 import style from './App.module.css';
-import {AnimCounter} from 'anim-counter';
+import AnimCounter from './AnimCounter';
 
 
 function App() {
