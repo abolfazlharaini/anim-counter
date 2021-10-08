@@ -2263,6 +2263,17 @@
   "resolved" "https://registry.npmjs.org/alphanum-sort/-/alphanum-sort-1.0.2.tgz"
   "version" "1.0.2"
 
+"anim-counter@^1.0.1":
+  "integrity" "sha512-SFzeEEHbwinZGVHoGAM0KaVYJzTK91xN7uvOJlz3lIAuA+hqd6/MTuBbNY7UXJAelddWr6jjCyuWTUr/GPcGFQ=="
+  "resolved" "https://registry.npmjs.org/anim-counter/-/anim-counter-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "nanoid" "^3.1.29"
+    "react" "^17.0.2"
+    "react-dom" "^17.0.2"
+    "react-scripts" "4.0.3"
+    "styled-components" "^5.3.1"
+
 "ansi-colors@^3.0.0":
   "integrity" "sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA=="
   "resolved" "https://registry.npmjs.org/ansi-colors/-/ansi-colors-3.2.4.tgz"

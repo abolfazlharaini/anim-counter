@@ -1,12 +1,18 @@
 {
   "name": "anim-counter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Animation counter",
-  "keywords": ["counter", "reactjs", "nanoid", "animation", "animation counter"],
-  "author":{
-    "name" : "Abolfazl Haraini",
-    "email" : "abolfazlharaini@yahoo.com",
-    "url" : ""
+  "keywords": [
+    "counter",
+    "reactjs",
+    "nanoid",
+    "animation",
+    "animation counter"
+  ],
+  "author": {
+    "name": "Abolfazl Haraini",
+    "email": "abolfazlharaini@yahoo.com",
+    "url": ""
   },
   "private": false,
   "dependencies": {
