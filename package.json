@@ -2,6 +2,17 @@
   "name": "anim-counter",
   "version": "1.0.2",
   "description": "Animation counter",
+  "main": "dist/AnimCounter.js",
+  "module": "dist/AnimCounter.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "keywords": [
     "counter",
     "reactjs",
@@ -14,6 +25,14 @@
     "email": "abolfazlharaini@yahoo.com",
     "url": ""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abolfazlharaini/anim-counter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abolfazlharaini/anim-counter/issues"
+  },
+  "homepage": "https://github.com/abolfazlharaini/anim-counter#readme",
   "private": false,
   "dependencies": {
     "nanoid": "^3.1.29",
@@ -24,7 +43,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "publish:npm": "rm -rf dist && mkdir dist && babel ./src -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +63,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/preset-react": "^7.14.5"
   }
 }

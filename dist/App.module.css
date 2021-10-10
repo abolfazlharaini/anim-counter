@@ -1,0 +1,58 @@
+﻿.app {
+    align-items: center;
+    background: #f2709c;
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
+    background: linear-gradient(to right, #ff9472, #f2709c);
+    display: flex;
+    font-size: 24px;
+    font-family: sans-serif;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.app button {
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    transition: all 0.25s;
+    width: 40px;
+}
+
+.app button:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.app .plus {
+    background-color: #f2709c;
+}
+.app .plus svg {
+    fill: #fff;
+}
+
+.app .minus {
+    background-color: #ff9472;
+}
+.app .minus svg {
+    fill: #fff;
+}
+
+.labelWrapper {
+    height: 40px !important;
+    width: 70px !important;
+}
+
+.label {
+    height: 40px !important;
+}
+
+.root {
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.25);
+    padding: 18px;
+}
