@@ -1,4 +1,6 @@
-﻿// App
+﻿import React from 'react';
+
+// App
 //
 import AnimCounterLogic from './AnimCounterLogic';
 import PlusIcon from './PlusIcon';

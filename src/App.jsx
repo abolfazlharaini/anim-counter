@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './reboot.css';
 import style from './App.module.css';
 import AnimCounter from './AnimCounter';
