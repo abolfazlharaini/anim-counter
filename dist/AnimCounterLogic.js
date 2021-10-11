@@ -1,15 +1,28 @@
-import { useEffect, useState } from "react";
-import { nanoid } from 'nanoid';
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+require("core-js/modules/web.dom-collections.iterator.js");
+
+var _react = require("react");
+
+var _nanoid = require("nanoid");
+
 let timeout = 0;
 
 const AnimCounterLogic = props => {
-  const [currentValue, setCurrentValue] = useState(props.defaultValue ?? 0);
-  const [incrementQueue, setIncrementQueue] = useState([{
+  var _props$defaultValue;
+
+  const [currentValue, setCurrentValue] = (0, _react.useState)((_props$defaultValue = props.defaultValue) !== null && _props$defaultValue !== void 0 ? _props$defaultValue : 0);
+  const [incrementQueue, setIncrementQueue] = (0, _react.useState)([{
     value: currentValue,
     top: '0',
-    id: nanoid()
+    id: (0, _nanoid.nanoid)()
   }]);
-  useEffect(() => initAnimQueue(), [incrementQueue]);
+  (0, _react.useEffect)(() => initAnimQueue(), [incrementQueue]);
 
   const onAddToNextQueue = isIncrease => {
     if (props.disabled) return;
@@ -18,7 +31,7 @@ const AnimCounterLogic = props => {
     setIncrementQueue(state => {
       const newIncrementQueue = [...state];
       newIncrementQueue.push({
-        id: nanoid(),
+        id: (0, _nanoid.nanoid)(),
         value: newValue,
         top: isIncrease ? '100%' : '-100%',
         isIncrease
@@ -69,4 +82,5 @@ const AnimCounterLogic = props => {
   };
 };
 
-export default AnimCounterLogic;
+var _default = AnimCounterLogic;
+exports.default = _default;

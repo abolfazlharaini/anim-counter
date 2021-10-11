@@ -1,3 +1,10 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
 const MinusIcon = () => {
   return /*#__PURE__*/React.createElement("svg", {
     height: "24px",
@@ -12,4 +19,5 @@ const MinusIcon = () => {
   }));
 };
 
-export default MinusIcon;
+var _default = MinusIcon;
+exports.default = _default;

@@ -1,3 +1,10 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
 const PlusIcon = () => {
   return /*#__PURE__*/React.createElement("svg", {
     height: "24px",
@@ -12,4 +19,5 @@ const PlusIcon = () => {
   }));
 };
 
-export default PlusIcon;
+var _default = PlusIcon;
+exports.default = _default;
