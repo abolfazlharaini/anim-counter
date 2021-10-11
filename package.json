@@ -1,9 +1,9 @@
 {
   "name": "anim-counter",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Animation counter",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/AnimCounter.js",
+  "module": "dist/AnimCounter.js",
   "files": [
     "dist",
     "README.md"

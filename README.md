@@ -4,7 +4,7 @@
 
 ## Usage guide
 
-import { AnimCounter } from 'anim-counter';
+import AnimCounter from 'anim-counter';
 
 ## Props
 
@@ -14,7 +14,9 @@ import { AnimCounter } from 'anim-counter';
 |disabled|`'false'`|boolean|
 |duration|`150`|number|
 |minusIcon|`svg icon`|any|
+|minusDisabled|false|boolean|
 |plusIcon|`svg icon`|any|
+|plusDisabled|false|boolean|
 |onChange|`undefined`|(newValue) => void|
 
 ## Classnames

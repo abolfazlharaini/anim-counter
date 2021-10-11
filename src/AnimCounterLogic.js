@@ -74,8 +74,18 @@ const AnimCounterLogic = (props) => {
     }
 
     return {
-        onClickPlusBtn: () => onAddToNextQueue(true),
-        onClickMinusBtn: () => onAddToNextQueue(false),
+        onClickPlusBtn: () => {
+            if (props.plusDisabled)
+                return;
+
+            onAddToNextQueue(true);
+        },
+        onClickMinusBtn: () => {
+            if (props.minusDisabled)
+                return;
+
+            onAddToNextQueue(false);
+        },
         incrementQueue
     };
 }
