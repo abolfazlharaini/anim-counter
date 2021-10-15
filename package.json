@@ -1,9 +1,10 @@
 {
   "name": "anim-counter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Animation counter",
   "main": "dist/AnimCounter.js",
   "module": "dist/AnimCounter.js",
+  "types": "index.d.ts",
   "files": [
     "dist",
     "README.md"
@@ -15,11 +16,7 @@
     "animation",
     "animation counter"
   ],
-  "author": {
-    "name": "Abolfazl Haraini",
-    "email": "abolfazlharaini@yahoo.com",
-    "url": ""
-  },
+  "author": "Abolfazl Haraini <abolfazlharaini@yahoo.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abolfazlharaini/anim-counter.git"
