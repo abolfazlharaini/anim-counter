@@ -10,8 +10,8 @@
 
     export interface IAnimCounter {
         classes?: AnimCounterClasses;
-        minusIcon: any;
-        plusIcon: any;
+        minusIcon?: any;
+        plusIcon?: any;
         duration?: number;
         disabled?: boolean;
         onChange?: (newValue: number) => void;

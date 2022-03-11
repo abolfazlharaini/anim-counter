@@ -1,6 +1,6 @@
 {
   "name": "anim-counter",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Animation counter",
   "main": "dist/AnimCounter.js",
   "module": "dist/AnimCounter.js",
